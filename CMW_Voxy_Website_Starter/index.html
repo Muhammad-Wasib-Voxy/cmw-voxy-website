@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#061226">
+  <meta name="description" content="C.M.W Voxy — indie games, game development, programming tutorials, and creative resources.">
+  <title>C.M.W Voxy — Play. Code. Create.</title>
+  <link rel="icon" href="assets/cmw-voxy-logo.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="C.M.W Voxy home">
+      <img src="assets/cmw-voxy-logo.png" alt="C.M.W Voxy logo" class="brand-logo" onerror="this.style.display='none'">
+      <span class="brand-fallback">C.M.W <b>VOXY</b></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="nav" id="nav">
+      <a href="#games">Games</a><a href="#assets">Assets</a><a href="#tutorials">Tutorials</a><a href="#about">About</a>
+      <a class="nav-cta" href="#downloads">Explore work <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero section-wrap">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse"></span> INDIE DEVELOPER • CREATIVE LAB</div>
+        <h1>PLAY.<br><span>CODE.</span> CREATE<span class="period">.</span></h1>
+        <p class="hero-description">Welcome to <strong>C.M.W Voxy</strong> — a home for indie games, useful game-dev resources, and programming tutorials made with curiosity and creativity.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#games">Explore projects <span>↗</span></a><a class="button button-ghost" href="#tutorials">Learn with me <span>⌄</span></a></div>
+        <div class="hero-stats"><div><b>GAMES</b><small>Play & discover</small></div><i></i><div><b>ASSETS</b><small>Build faster</small></div><i></i><div><b>TUTORIALS</b><small>Learn by doing</small></div></div>
+      </div>
+      <div class="hero-art" aria-label="Abstract neon blue game development artwork">
+        <div class="art-grid"></div><div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="code-card"><div class="window-dots"><i></i><i></i><i></i><span>project.gd</span></div><code><em>func</em> <b>make_game</b>():<br>&nbsp;&nbsp;player.start()<br>&nbsp;&nbsp;<strong>world</strong>.explore()<br>&nbsp;&nbsp;<span>return</span> <q>awesome</q></code></div>
+        <div class="cube">V</div><div class="art-caption"><span class="caption-line"></span><span>IDEAS INTO INTERACTIVE WORLDS</span></div>
+        <div class="art-chip chip-one">✦ GAME DEV</div><div class="art-chip chip-two">&lt;/&gt; CODE</div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="What this site offers"><div>INDIE GAMES <span>✦</span> GAME DEVELOPMENT <span>✦</span> PROGRAMMING <span>✦</span> DIGITAL ASSETS <span>✦</span> INDIE GAMES <span>✦</span> GAME DEVELOPMENT <span>✦</span> PROGRAMMING <span>✦</span></div></section>
+
+    <section class="content-section section-wrap" id="games">
+      <div class="section-heading"><div><div class="eyebrow">01 / PLAY SOMETHING</div><h2>Featured <span>games</span></h2><p>Small experiments, big ideas. Discover the projects in the Voxy universe.</p></div><a class="text-link" href="#downloads">All downloads ↗</a></div>
+      <div class="card-grid">
+        <article class="project-card"><div class="project-art game-art"><span class="art-label">GAME PROJECT</span><div class="pixel-landscape"><i></i><i></i><i></i><b></b></div><span class="art-big">01</span></div><div class="card-body"><div class="tag-row"><span class="tag">GAME</span><span class="tag tag-muted">IN DEVELOPMENT</span></div><h3>Your next game</h3><p>Add your game name, screenshots, and a short description here.</p><a class="card-link" href="#downloads">View project <span>↗</span></a></div></article>
+        <article class="project-card"><div class="project-art neon-art"><span class="art-label">PLAYABLE EXPERIMENT</span><div class="target-ring"><span>PLAY</span></div><span class="art-big">02</span></div><div class="card-body"><div class="tag-row"><span class="tag">PROTOTYPE</span><span class="tag tag-muted">COMING SOON</span></div><h3>Prototype lab</h3><p>A place for game jams, mechanics tests, and experimental ideas.</p><a class="card-link" href="#downloads">View project <span>↗</span></a></div></article>
+        <article class="project-card"><div class="project-art pixel-art"><span class="art-label">VOXY ORIGINALS</span><div class="pixel-planet"></div><span class="art-big">03</span></div><div class="card-body"><div class="tag-row"><span class="tag">INDIE</span><span class="tag tag-muted">YOUR NEXT RELEASE</span></div><h3>More worlds ahead</h3><p>Use this card to spotlight your newest release or work in progress.</p><a class="card-link" href="#downloads">View project <span>↗</span></a></div></article>
+      </div>
+    </section>
+
+    <section class="content-section section-wrap" id="assets">
+      <div class="section-heading"><div><div class="eyebrow">02 / MAKE SOMETHING</div><h2>Dev <span>resources</span></h2><p>Handy downloads to help other creators bring their ideas to life.</p></div></div>
+      <div class="resource-grid">
+        <article class="resource-card"><div class="resource-icon">▦</div><div><span class="mini-label">2D / GRAPHICS</span><h3>Game art & sprites</h3><p>Sprites, UI elements, textures, and visual experiments.</p></div><a href="#downloads" aria-label="Explore game art downloads">↗</a></article>
+        <article class="resource-card"><div class="resource-icon">&lt;/&gt;</div><div><span class="mini-label">CODE / TOOLS</span><h3>Templates & snippets</h3><p>Reusable code, starter projects, and helpful utilities.</p></div><a href="#downloads" aria-label="Explore code downloads">↗</a></article>
+        <article class="resource-card"><div class="resource-icon">✳</div><div><span class="mini-label">SOUND / EXTRAS</span><h3>Creative extras</h3><p>Audio, design bits, and other resources for your projects.</p></div><a href="#downloads" aria-label="Explore creative downloads">↗</a></article>
+      </div>
+    </section>
+
+    <section class="tutorial-section" id="tutorials"><div class="section-wrap tutorial-inner"><div><div class="eyebrow">03 / LEARN & LEVEL UP</div><h2>Build your skills.<br><span>One project at a time.</span></h2><p>Game development, programming, Godot, TurboWarp, and lessons learned while building things from scratch.</p><a class="button button-primary" href="#downloads">Explore tutorials <span>↗</span></a></div><div class="tutorial-visual"><div class="terminal"><div class="terminal-head"><span></span><span></span><span></span><b>voxy_tutorial.gd</b></div><div class="terminal-code"><span>01</span> <em>extends</em> Node2D<br><span>02</span> <em>func</em> _ready():<br><span>03</span> &nbsp;&nbsp;print(<q>"Hello, creator!"</q>)<br><span>04</span> &nbsp;&nbsp;start_building()</div><div class="terminal-footer"><i></i> READY TO BUILD</div></div><div class="floating-tag">GODOT • TURBOWARP • CODE</div></div></div></section>
+
+    <section class="content-section section-wrap" id="downloads"><div class="download-panel"><div class="download-symbol">↓</div><div><div class="eyebrow">THE DOWNLOAD ZONE</div><h2>Your next favorite <span>project starts here.</span></h2><p>Download buttons will link to your actual game builds, asset packs, source files, or itch.io pages.</p></div><a class="button button-primary" href="https://itch.io" target="_blank" rel="noreferrer">Visit itch.io <span>↗</span></a></div><p class="setup-note"><strong>Site owner note:</strong> Replace the sample project cards and this itch.io link with your real releases before publishing.</p></section>
+
+    <section class="about-section section-wrap" id="about"><div class="about-mark">V<span>.</span></div><div><div class="eyebrow">04 / ABOUT THE CREATOR</div><h2>Made by <span>C.M.W Voxy.</span></h2><p>I'm an indie creator exploring games, graphics, programming, and interactive experiences. This is my corner of the internet to share what I build and what I learn along the way.</p><div class="social-links"><a href="https://www.youtube.com/" target="_blank" rel="noreferrer">YouTube ↗</a><a href="https://itch.io/" target="_blank" rel="noreferrer">itch.io ↗</a><a href="mailto:hello@example.com">Email ↗</a></div></div></section>
+  </main>
+
+  <footer class="site-footer"><a class="footer-brand" href="#home">C.M.W <b>VOXY</b></a><span>Play. Code. Create.</span><span>© <span id="year"></span> C.M.W Voxy</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
