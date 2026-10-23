@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#061226">
+    <meta name="description"
+        content="C.M.W Voxy — indie games, game development, programming tutorials, and creative resources.">
+    <title>C.M.W Voxy — Play. Code. Create.</title>
+    <link rel="icon" href="assets/cmw-voxy-logo.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="ambient ambient-one"></div>
+    <div class="ambient ambient-two"></div>
+    <header class="site-header">
+        <a class="brand" href="index.html" aria-label="C.M.W Voxy home">
+            <img src="assets/cmw-voxy-logo.png" alt="C.M.W Voxy logo" class="brand-logo"
+                onerror="this.style.display='none'">
+            <span class="brand-fallback">C.M.W <b>VOXY</b></span>
+        </a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation"
+            aria-expanded="false"><span></span><span></span><span></span></button>
+        <nav class="nav" id="nav">
+            <a href="games-page.html">Games</a><a href="#assets">Assets</a><a href="#tutorials">Tutorials</a><a
+                href="#about">About</a>
+            <a class="nav-cta" href="index.html"> Home <span>↗</span></a>
+        </nav>
+    </header>
+
+    <section class="hero section-wrap">
+        <div class="hero-copy">
+            <div class="eyebrow"><span class="pulse"></span> INDIE DEVELOPER • CREATIVE LAB</div>
+            <h1>Voxy.<br><span>Games.</span> Store<span class="period">.</span></h1>
+            <p class="hero-description">Welcome to <strong>C.M.W Voxy's Game Store</strong> — a treasure of action
+                ,puzzles ,casual
+                and many indie games by C.M.W Voxy
+            </p>
+            <div class="hero-stats">
+                <div><b>Casual</b><small>Pass your time</small></div><i></i>
+                <div><b>Action</b><small>Get in action</small></div><i></i>
+                <div><b>Puzzle</b><small>Sharp your mind</small></div>
+            </div>
+        </div>
+    </section>
+
+    <!--All Games Below here-->
+
+    <section class="content-section section-wrap" id="games">
+        <div class="section-heading">
+            <div>
+                <h2>All <span>games</span></h2>
+            </div>
+        </div>
+        <div class="card-grid">
+            <article class="project-card">
+                <div class="project-art game-art"><span class="art-label">GAME PROJECT</span>
+                    <div class="spacy-fire"><img src="gamebanners/spacy-fire-icon.png"></div>
+                </div>
+                <div class="card-body">
+                    <div class="tag-row"><span class="tag">GAME</span><span class="tag tag-muted">IN DEVELOPMENT</span>
+                    </div>
+                    <h3>Your next game</h3>
+                    <p>Add your game name, screenshots, and a short description here.</p><a class="card-link"
+                        href="#downloads">View Game <span>↗</span></a>
+                </div>
+            </article>
+            <article class="project-card">
+                <div class="project-art neon-art"><span class="art-label">PLAYABLE EXPERIMENT</span>
+                    <div class="target-ring"><span>PLAY</span></div><span class="art-big">02</span>
+                </div>
+                <div class="card-body">
+                    <div class="tag-row"><span class="tag">PROTOTYPE</span><span class="tag tag-muted">COMING
+                            SOON</span></div>
+                    <h3>Prototype lab</h3>
+                    <p>A place for game jams, mechanics tests, and experimental ideas.</p><a class="card-link"
+                        href="#downloads">View Game <span>↗</span></a>
+                </div>
+            </article>
+            <article class="project-card">
+                <div class="project-art pixel-art"><span class="art-label">VOXY ORIGINALS</span>
+                    <div class="pixel-planet"></div><span class="art-big">03</span>
+                </div>
+                <div class="card-body">
+                    <div class="tag-row"><span class="tag">INDIE</span><span class="tag tag-muted">YOUR NEXT
+                            RELEASE</span>
+                    </div>
+                    <h3>More worlds ahead</h3>
+                    <p>Use this card to spotlight your newest release or work in progress.</p><a class="card-link"
+                        href="#downloads">View Game <span>↗</span></a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="site-footer"><a class="footer-brand" href="#home">C.M.W <b>VOXY</b></a><span>Play. Code.
+            Create.</span><span>© <span id="year"></span> C.M.W Voxy</span></footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
